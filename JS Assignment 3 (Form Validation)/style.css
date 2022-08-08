@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto';
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logincard {
+    width: 20%;
+}
+
+#reg-head {
+    text-align: center;
+}
+
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+}
+

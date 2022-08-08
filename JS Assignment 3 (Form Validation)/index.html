@@ -5,20 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
 <body>
-    <h2>Registration</h2>
-    <form name="reg" >
-        <label for="name">Name</label>
-        <input type="text" name="name" id="form-name"><br>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email"><br>
-        <label for="phone">Phone</label>
-        <input type="text" name="phone" id="phone"><br>
-        <label for="pass">Password</label>
-        <input type="password" name="pass" id="pass"><br>
-        <input type="button" value="Submit" onclick="validateForm()">
-    </form>
+    <div id="container">
+        <div id="logincard">
+            <h2 id="reg-head">Registration</h2>
+            <form name="reg" action="index.html" novalidate>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="form-name"><br>
+                <div id="name-val"></div><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email"><br>
+                <div id="email-val"></div><br>
+                <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone"><br>
+                <div id="phone-val"></div><br>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass"><br>
+                <div id="pass-val"></div><br>
+                <input type="button" value="Submit" onclick="validateForm()">
+            </form>
+        </div>
+    </div>
     
     <script src="script.js"></script>
 </body>
